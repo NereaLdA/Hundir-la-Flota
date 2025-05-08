@@ -1,5 +1,7 @@
-# Hundir-la-Flota
-🛳️ Hundir la Flota - Juego en Python
+## Hundir-la-Flota
+
+# 🛳️ Hundir la Flota 
+
 🎯 ¿En qué consiste?
 Este es un juego por turnos en el que tú y un rival (la máquina) os enfrentáis en una batalla naval. Cada uno tiene una flota de barcos escondida en un tablero de 10x10. El objetivo es hundir todos los barcos del enemigo antes de que él hunda los tuyos.
 
