@@ -10,7 +10,7 @@ Cada jugador tiene un tablero con sus barcos y otro tablero donde marca sus disp
 
 Los barcos del rival se colocan aleatoriamente, sin solaparse ni salirse del tablero.
 
-El jugador introduce coordenadas (fila y columna) para disparar. Si acierta, se marca con una ❌, si falla, con 💧.
+El jugador introduce coordenadas (fila y columna) para disparar. Si acierta, se marca con una 💥, si falla, con 💧.
 
 El rival dispara aleatoriamente, evitando repetir casillas.
 
@@ -38,14 +38,16 @@ disparar_a_lista(): gestiona el disparo del jugador y actualiza el tablero.
 
 disparo_rival(): genera un disparo aleatorio del enemigo y actualiza el tablero.
 
-barco_hundido() y todos_barcos_hundidos(): detectan cuándo un barco ha sido hundido.
+barco_hundido(): detecta cuándo un barco ha sido hundido.
+
+todos_barcos_hundidos(): detecta cuándo se han hundido todos los barcos de uno de los jugadores
 
 jugar(): gestiona los turnos hasta que haya un ganador.
 
 # 📦 Archivos principales
 
-main.py: inicia el juego.
+HlF_main.py: inicia el juego.
 
-utils.py: contiene las funciones del juego.
+HlF_utils.py: contiene las funciones del juego.
 
-variables.py: contiene variables globales (tableros, barcos...).
+HlF_variables.py: contiene variables globales (tableros, barcos...).
