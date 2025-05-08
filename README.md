@@ -1,5 +1,3 @@
-# Hundir-la-Flota
-
 # 🛳️ HUNDIR LA FLOTA
 
 # 🎯 ¿En qué consiste?
